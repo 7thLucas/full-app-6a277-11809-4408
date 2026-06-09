@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:wght@400;500&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,40 +6,40 @@
 
 @layer base {
   :root {
-    --background: #ffffff;
-    --foreground: #09090b;
+    --background: #F7F9FC;
+    --foreground: #1C1C2E;
     --card: #ffffff;
-    --card-foreground: #09090b;
+    --card-foreground: #1C1C2E;
     --popover: #ffffff;
-    --popover-foreground: #09090b;
-    --primary: #2563eb;
+    --popover-foreground: #1C1C2E;
+    --primary: #1A2B4A;
     --primary-foreground: #ffffff;
-    --secondary: #f4f4f5;
-    --secondary-foreground: #18181b;
-    --muted: #f4f4f5;
-    --muted-foreground: #71717a;
-    --accent: #f4f4f5;
-    --accent-foreground: #18181b;
-    --destructive: #ef4444;
-    --destructive-foreground: #fafafa;
-    --border: #e4e4e7;
-    --input: #e4e4e7;
-    --ring: #2563eb;
+    --secondary: #6B7A99;
+    --secondary-foreground: #ffffff;
+    --muted: #F0F4F8;
+    --muted-foreground: #6B7A99;
+    --accent: #00C2B2;
+    --accent-foreground: #ffffff;
+    --destructive: #EF4444;
+    --destructive-foreground: #ffffff;
+    --border: #E2E8F0;
+    --input: #E2E8F0;
+    --ring: #00C2B2;
     --radius: 0.5rem;
-    --chart-1: #f97316;
-    --chart-2: #0d9488;
-    --chart-3: #1e3a5f;
-    --chart-4: #d4a017;
-    --chart-5: #ea580c;
-    --navbar-background: #ffffff;
-    --sidebar-background: #fafafa;
-    --sidebar-foreground: #3f3f46;
-    --sidebar-primary: #2563eb;
+    --chart-1: #00C2B2;
+    --chart-2: #1A2B4A;
+    --chart-3: #22C55E;
+    --chart-4: #F59E0B;
+    --chart-5: #6B7A99;
+    --navbar-background: #1A2B4A;
+    --sidebar-background: #1A2B4A;
+    --sidebar-foreground: #ffffff;
+    --sidebar-primary: #00C2B2;
     --sidebar-primary-foreground: #ffffff;
-    --sidebar-accent: #f4f4f5;
-    --sidebar-accent-foreground: #18181b;
-    --sidebar-border: #e4e4e7;
-    --sidebar-ring: #2563eb;
+    --sidebar-accent: rgba(255,255,255,0.1);
+    --sidebar-accent-foreground: #ffffff;
+    --sidebar-border: rgba(255,255,255,0.1);
+    --sidebar-ring: #00C2B2;
   }
 
   .dark {
@@ -86,7 +86,11 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Inter', 'Poppins', 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
   }
 }
 
@@ -176,7 +180,7 @@
 }
 
 body {
-  background: #f2f2f7;
+  background: #F7F9FC;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
