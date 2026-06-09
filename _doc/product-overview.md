@@ -24,3 +24,8 @@ Interview Insight Plus turns raw interview footage into hiring intelligence. It 
 - Insights must be actionable, not decorative.
 - Every feature reduces friction in the hiring decision loop.
 - Bias reduction through systematic, structured analysis is a first-class goal.
+
+## Post-MVP Roadmap (next features)
+1. **AI Candidate Scoring** — automatically score and rank candidates against custom rubrics after each interview
+2. **Interview Transcript Search** — full-text search and filtering across all interview recordings and auto-generated transcripts
+3. **Team Collaboration & Feedback** — let hiring team members annotate, comment, and align on candidates within the platform
